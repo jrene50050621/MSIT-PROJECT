@@ -1,0 +1,30 @@
+html,body{
+	background:#eee;	
+
+}
+#content{
+	 
+	margin-top: 10px;
+	width: 420px;
+	margin-left: 210px;
+}
+.content-inner{
+
+	margin-bottom: 10px;
+	padding:10px;
+	height: 510px;
+
+}
+.content-inner img{
+	margin-left: 130px;
+	width: 150px;
+	margin-bottom: 10px;
+}
+.form-wrapper{
+
+	background-color: #eee;
+	padding: 5px;
+	height: 340px;
+	
+
+}

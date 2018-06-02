@@ -1,0 +1,21 @@
+html,body{
+	background:#eee;	
+
+}
+#content{
+	margin-top: 100px;
+}
+.content-inner{
+
+	margin-bottom: 10px;
+	padding:10px;
+	height: 260px;
+
+}
+.form-wrapper{
+
+	background-color: #eee;
+	padding: 5px;
+	
+
+}

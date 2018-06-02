@@ -1,0 +1,242 @@
+html,body{
+	font: 20px Montserrat,sans-serif,;
+	
+	background-color: #eee;
+	color:#676a6c;
+	height: 100%;
+
+
+}
+
+#side-menu{
+	background-color: #2f4050;
+	padding: 0px;
+	
+}
+#side-menu h1{
+	color:#fff;
+	text-align: center;
+	margin:10px 0px;
+	font-size:40px;
+	background-color:#2f4050;
+	margin-top: 10px;
+	
+	
+	
+}
+#side-menu .row{
+	background-color: white;
+	margin-right: 0px;
+	margin-top: -9px;
+	border-right: 1px solid  #2f4050;
+	padding: 0px;
+	margin-bottom: 3px;
+	text-align: center;
+	height: 60px;
+
+}
+#side-menu .row img{
+	height: 50px;
+	padding: 0px;
+	margin-right: 120px;	
+	border-radius: 50px;
+	margin-top: 5px;
+	margin-left: -20px;
+}
+
+#side-menu ul {
+	margin-top: 0px;
+	list-style: none;
+	padding: 0px;
+}
+#side-menu a{
+	padding: 12px 20px;
+	text-decoration: none;
+	color: #9fb1c2;
+	font-weight: bold;
+	font-size: 14px;
+	display: block;
+}
+#side-menu .glyphicon{
+	margin-right: 6px;
+
+}
+#side-menu a:hover{
+	border-left: 5px solid #1ab394;
+	background-color: #293846;
+	color:#1ab394;
+	display: block;
+}
+#side-menu .active a{
+	border-left: none;
+	color:#fff;
+	background-color: #293846;
+	display: block;
+}
+#side-menu .logout:hover{
+	color: #FF4D4D;
+	border-left: 5px solid #FF6633;
+}
+.display-table{
+	display: table;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+.display-table-row{
+	display: table-row;
+	height: 100%;
+}
+.display-table-cell{
+	display: table-cell;
+	float: none;
+	height: 100%;
+}
+.valign-top{
+
+	vertical-align: top;
+}
+#nav-header{
+	
+	background-color:#5F9EA0;
+	border: 0px solid #e7eaec;
+	height: 50%;
+}
+
+#nav-header #header-search-field{
+	padding:5px;
+	margin-top: 8.5px;
+	border:1px solid gray;
+	border-radius: 5px;
+	width:300px;
+	outline: none;
+}
+
+#nav-header ul{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+	color: #676a6c;
+}
+#nav-header ul li{
+	margin-right: 30px;
+	float: left;
+	margin-left: 0px;
+	padding:17px 0px;
+	
+}
+#nav-header ul .glyphicon{
+
+	color:black;
+}
+#nav-header ul .glyphicon:hover{
+	color: #fff;
+}
+.label-message {
+	background-color: #1ab394; 
+}
+#nav-header ul a{ 
+	text-decoration: none;
+	font-size:15;
+	color:black;
+}
+#nav-header ul a:hover{
+	color: #fff;
+}
+#nav-header  #welcome{
+	margin-right: 20px;
+	font-size: 15px;
+	color: black;
+}
+#nav-header ul .label{
+	position: absolute;
+	margin-top: -10px;
+	margin-left: -1px;
+
+}
+footer{
+	position:absolute;
+	width: 100%;
+	bottom: 0px;
+	padding: 10px;
+	display: inline-block;
+	background-color: #5F9EA0;
+
+}
+#admin-footer b{
+	 font: 12px Montserrat, sans-serif;
+	margin-right: 30px;
+	margin-left: 30px;
+	color:black;
+
+
+}
+#admin-footer a{
+	color: #FF4D4D;
+	
+}
+#admin-footer a:hover{
+	color: black;
+}
+
+
+.navbar-default{
+	background-color: #fff;
+}
+.navbar-default .navbar-toggle{
+	border:none;
+	background-color: #676a6c;
+}
+#content{
+	margin:20px 0px 50px 0px;
+	background-color: #fff;
+	border: 1px solid black; 
+	border-top: 4px #1ab394 solid;
+	margin-left: 280px;
+	width: 40%;
+	border-radius: 5px;
+
+}
+#content tr{
+	font-size: 1px;
+}
+#content header{
+	border-bottom: 1px #1ab394 solid;
+	padding: 10px 2px;
+}
+.page_title{
+	font-size: 20px;
+	font-weight: bold;
+	padding:0px 0px 0px 20px;
+	margin: 0px;
+}
+.content-inner{
+	margin-bottom: 10px;
+	padding:10px;
+			
+
+}
+.jumbotron{
+	padding: 0px;
+	margin-top: 10px;
+	color: #191970;
+	background-color: #D7D7D7;
+	border:1px solid gray;
+	border-right: 4px solid #FF6347;
+	border-left: 4px solid #FF6347;
+}
+.jumbotron h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 35px;
+	
+}
+p{
+
+	text-align: left;
+	font-size: 15px;
+	word-spacing: 2px;
+}
